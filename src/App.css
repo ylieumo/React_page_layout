@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+ */
+
+
+ .App {
+  display:flex;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+ }
+ .Homepage{
+  border-style: solid;
+  border-color: orange;
+ }
+ .Employeepage{
+  border-style: solid;
+  border-color: brown;
+ }
+ .EmployeeList {
+  border-style: solid;
+  border-color: purple;
+ }
+ .EmployeeListItem {
+  border-style: solid;
+  border-color: red;
+ }
+ .Header{
+  border-style: solid;
+  border-color: blue;
+ }
+ .SearchBar {
+  border-style: solid;
+  border-color: green; 
+ }
+ 
+
+
