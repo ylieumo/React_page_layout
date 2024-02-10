@@ -2,13 +2,13 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import EmployeeList from "./EmployeeList";
 
-function Homepage() {
+function Homepage(props) {
   return (
     <div className="Homepage">
-        <h1></h1>
-      <Header />
+      <header title="Employee"/>
+      <Header title="Employee Directory"/>
       <SearchBar />
-      <EmployeeList />
+      <EmployeeList data={props.data}/>
     </div>
   );
 }
